@@ -1,0 +1,6 @@
+import pkg_resources
+
+print("openai version:", pkg_resources.get_distribution("openai").version)
+print("streamlit version:", pkg_resources.get_distribution("streamlit").version)
+print("sqlalchemy version:", pkg_resources.get_distribution("SQLAlchemy").version)
+print("altair version:", pkg_resources.get_distribution("altair").version)
